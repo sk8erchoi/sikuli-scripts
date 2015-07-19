@@ -1,0 +1,16 @@
+click("1437303457346.png")
+checked = Pattern("checked.png").similar(0.80).targetOffset(-29,0)
+if exists(checked): click(checked)
+click("btn.png")
+wait("1437137420805.png", 5)
+click("1437137435665.png")
+type('Yong Choi')
+click("1437137463947.png")
+type('sk8er.choi@gmail.com')
+click(Pattern("chkbox.png").targetOffset(17,1))
+click(Pattern("1437137535488.png").targetOffset(17,0))
+type(Key.DOWN * 5)
+sleep(1)
+hover("1437304545123.png")
+
+    
